@@ -1,16 +1,16 @@
 version: 2.1
-Every CircleCI config.yml starts with the version key. This key is used to issue warnings about breaking changes.
+#Every CircleCI config.yml starts with the version key. This key is used to issue warnings about breaking changes.
 orbs:
   node: circleci/node@4.7
-The Node.js orb contains a set of prepackaged CircleCI configurations you can use to easily install Node.js and its package managers (npm, yarn). 
-Best of all, packages are installed with caching by default, and support for Linux x86_64, macOS x86_64, and Arm64 is automatically included
+#The Node.js orb contains a set of prepackaged CircleCI configurations you can use to easily install Node.js and its package managers (npm, yarn). 
+#Best of all, packages are installed with caching by default, and support for Linux x86_64, macOS x86_64, and Arm64 is automatically included
 # Invoke jobs via workflows
 workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
-    Jobs are the building blocks of your config. Jobs are collections of steps, which run commands/scripts as required.
-    All of the steps in the job are executed in a single unit, either within a fresh container or Virtual Machine.
+    #Jobs are the building blocks of your config. Jobs are collections of steps, which run commands/scripts as required.
+    #All of the steps in the job are executed in a single unit, either within a fresh container or Virtual Machine.
       - node/test:
           version: '16.10'
           # If you are using yarn, change the line below from "npm" to "yarn"
