@@ -1,0 +1,19 @@
+{
+  "name": "automation-csv",
+  "version": "1.0.0",
+  "description": "for automation csv files - test",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venkatesh-lumel/Automation-CSV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Venkatesh-lumel/Automation-CSV/issues"
+  },
+  "homepage": "https://github.com/Venkatesh-lumel/Automation-CSV#readme"
+}
