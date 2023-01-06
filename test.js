@@ -3,5 +3,5 @@ function add(a , b){
 }
 
 
-console.log(add(1,2))
-console.log('success')
+console.log(add(3:5))
+console.log('changes')
